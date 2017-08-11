@@ -19,5 +19,6 @@ endif
 
 let g:neomake_scss_enabled_makers = ['stylelint']
 let g:neomake_javascript_enabled_makers = ['eslint']
+let g:neomake_jsx_enabled_makers = ['eslint']
 let g:neomake_logfile = '/tmp/neomake.log'
 

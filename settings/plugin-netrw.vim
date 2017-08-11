@@ -1,3 +1,3 @@
-map - :Explore<CR>
-map . :Vexplore<CR>
-map # :Hexplore<CR>
+"map - :Explore<CR>
+"map . :Vexplore<CR>
+"map # :Hexplore<CR>

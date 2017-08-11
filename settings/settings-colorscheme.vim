@@ -1,10 +1,14 @@
 " ================ Colorscheme ======================
 
 " Define themes
-set termguicolors
-colorscheme NeoSolarized
-set background=dark
+"set termguicolors
+"colorscheme NeoSolarized
+"set background=dark
 
+"Set color scheme
+set background=dark
+colorscheme grb256
+set t_Co=256
 " default value is "normal", Setting this option to "high" or "low" does use the
 " same Solarized palette but simply shifts some values up or down in order to
 " expand or compress the tonal range displayed.
