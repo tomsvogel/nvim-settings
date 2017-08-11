@@ -48,7 +48,6 @@ Plug 'sbdchd/neoformat'
 Plug 'Shougo/neocomplcache'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
-Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'kien/ctrlp.vim'
@@ -66,9 +65,6 @@ Plug 'neomake/neomake'
 
 " Sensible settings
 Plug 'rstacruz/vim-opinion'
-
-" File navigation
-Plug 'cloudhead/neovim-fuzzy'
 
 call plug#end()
 
