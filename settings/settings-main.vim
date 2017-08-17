@@ -16,3 +16,9 @@ noremap <leader>t :term zsh<CR>
 noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <C-o>:syntax sync fromstart<CR>
 autocmd BufEnter * :syntax sync fromstart
+
+"enable to collapse json
+:set filetype=json
+:syntax on
+:set fdm=syntax
+
