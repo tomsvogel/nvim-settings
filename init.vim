@@ -22,6 +22,8 @@ Plug 'tpope/vim-liquid'
 Plug 'digitaltoad/vim-pug'
 Plug 'dNitro/vim-pug-complete', { 'for': ['jade', 'pug'] }
 Plug 'phpactor/phpactor'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'evidens/vim-twig'
 
 " Utilities
 Plug 'Lokaltog/vim-easymotion'
@@ -52,6 +54,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'eugen0329/vim-esearch'
 
 " Autocompletion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
