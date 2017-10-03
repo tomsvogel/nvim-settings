@@ -5,5 +5,4 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 let NERDTreeQuitOnOpen = 1
 let g:NERDTreeWinSize = 40
 let g:NERDTreeChDirMode=2
-nmap - :NERDTreeFind<CR>
-map . :NERDTreeToggle<CR>
+nmap <Leader>1 :NERDTreeFind<CR>

@@ -7,55 +7,52 @@ call plug#begin('~/.config/nvim/plugged')
 " Languages and libraries
 Plug 'JulesWang/css.vim'
 Plug 'genoma/vim-less'
-Plug 'kchmck/vim-coffee-script'
 Plug 'othree/html5.vim'
-Plug 'leafgarland/typescript-vim'
-Plug 'moll/vim-node'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'moll/vim-node'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'ternjs/tern_for_vim'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'plasticboy/vim-markdown'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'tpope/vim-haml'
-Plug 'tpope/vim-liquid'
-Plug 'digitaltoad/vim-pug'
-Plug 'dNitro/vim-pug-complete', { 'for': ['jade', 'pug'] }
 Plug 'phpactor/phpactor'
+Plug 'roxma/ncm-phpactor'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'evidens/vim-twig'
+Plug 'Galooshi/vim-import-js'
 
 " Utilities
-Plug 'Lokaltog/vim-easymotion'
-Plug 'Raimondi/delimitMate'
+" Plug 'Lokaltog/vim-easymotion'
 Plug 'mhinz/vim-signify'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'gcmt/wildfire.vim'
-Plug 'junegunn/vim-easy-align'
+" Plug 'junegunn/vim-easy-align'
 Plug 'justinmk/vim-gtfo'
-Plug 'mattn/emmet-vim'
 Plug 'icymind/NeoSolarized'
-Plug 'ntpeters/vim-better-whitespace'
 Plug 'Chiel92/vim-autoformat'
-Plug 'gabesoft/vim-ags'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-unimpaired'
-Plug 'tpope/vim-obsession'
 Plug 'brooth/far.vim'
 Plug 'sbdchd/neoformat'
 Plug 'Shougo/neocomplcache'
 Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
-
+Plug 'saltstack/salt-vim'
+Plug 'fatih/vim-go'
+Plug 'jodosha/vim-godebug'
+Plug 'jiangmiao/auto-pairs'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'Shougo/neosnippet-snippets'
+Plug 'jiangmiao/auto-pairs'
 " Autocompletion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
@@ -68,6 +65,9 @@ Plug 'neomake/neomake'
 
 " Sensible settings
 Plug 'rstacruz/vim-opinion'
+
+" color 
+Plug 'rafi/awesome-vim-colorschemes'
 
 call plug#end()
 
