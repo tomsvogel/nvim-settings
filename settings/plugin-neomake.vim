@@ -17,7 +17,7 @@ endif
 ""            \ 'errorformat': '%f: line %l\, col %c\, %m'
 ""            \ }
 
-let g:neomake_scss_enabled_makers = ['stylelint']
+let g:neomake_scss_enabled_makers = ['scsslint']
 let g:neomake_javascript_enabled_makers = ['eslint']
 let g:neomake_jsx_enabled_makers = ['eslint']
 let g:neomake_logfile = '/tmp/neomake.log'
