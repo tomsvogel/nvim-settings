@@ -64,7 +64,6 @@ Plug 'Shougo/neoinclude.vim'
 " Linters
 Plug 'neomake/neomake'
 Plug 'benjie/neomake-local-eslint.vim'
-
 " Sensible settings
 Plug 'rstacruz/vim-opinion'
 
@@ -77,7 +76,7 @@ call plug#end()
 
 " Prepare sensible/opinion overrides
 " runtime! plugin/sensible.vim
-runtime! plugin/opinion.vim
+runtime! plugin/opinion.vim 
 
 for fpath in split(globpath('~/.config/nvim/settings/overrides', '*.vim'), '\n')
   exe 'source' fpath
