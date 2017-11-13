@@ -16,7 +16,7 @@ function! neoformat#formatters#javascript#prettier() abort
         \ }
 endfunction
 
-let g:neoformat_enabled_javascript = ['eslint', 'prettiereslint', 'prettier']
+let g:neoformat_enabled_javascript = ['prettiereslint', 'prettier']
 
 " augroup fmt
 "   autocmd!
