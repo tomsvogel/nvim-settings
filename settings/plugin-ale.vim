@@ -1,6 +1,6 @@
 let g:airline#extensions#ale#enabled = 1
 let g:ale_fixers = {
-\   'javascript': ['prettier-eslint'],
+\   'javascript': ['eslint'],
 \   'scss': ['stylelint'],
 \   'less': ['stylelint'],
 \   'css': ['stylelint'],
