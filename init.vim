@@ -62,7 +62,8 @@ Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neoinclude.vim'
 
 " Linters
-Plug 'neomake/neomake'
+" Plug 'neomake/neomake'
+Plug 'w0rp/ale'
 Plug 'benjie/neomake-local-eslint.vim'
 " Sensible settings
 Plug 'rstacruz/vim-opinion'
